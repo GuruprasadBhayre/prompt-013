@@ -1,0 +1,125 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+html,body{
+height: 100%;
+width: 100%;
+font-family: "Poppins", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+.main{
+    height: 100%;
+    width: 70%;
+    background-color: #E6E6E6;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+}
+.congratulations{
+    height: 70%;
+    width: 35%;
+    background-color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    border: none;
+    border-radius: 40px;
+}
+.congratulations > i{
+    font-size: 150px;
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #09d494;
+}
+.congratulations > h2{
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #09d494;
+
+}
+.congratulations > p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    position: absolute;
+    top: 58%;
+    left: 4%;
+    color: #09d494;
+}
+.congratulations > button{
+    height: 10%;
+    width: 50%;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #09d494;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+}
+.thatsunfortunate{
+    height: 70%;
+    width: 35%;
+    background-color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    border: none;
+    border-radius: 40px;
+}
+.thatsunfortunate > i{
+    font-size: 150px;
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #D94846;
+}
+.thatsunfortunate > h2{
+    font-size: 18px;
+    font-weight: 600;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #D94846;
+}
+.thatsunfortunate > p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    position: absolute;
+    top: 58%;
+    left: 2%;
+    color: #D94846;
+}
+.thatsunfortunate > button{
+    height: 10%;
+    width: 50%;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #D94846;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+}
